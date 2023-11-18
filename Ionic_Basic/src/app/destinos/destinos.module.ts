@@ -8,6 +8,8 @@ import { DestinosPageRoutingModule } from './destinos-routing.module';
 
 import { DestinosPage } from './destinos.page';
 
+import { GooglemapsComponent } from '../componentes/googlemaps/googlemaps.component';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -16,6 +18,6 @@ import { DestinosPage } from './destinos.page';
     DestinosPageRoutingModule,
     ReactiveFormsModule
   ],
-  declarations: [DestinosPage]
+  declarations: [DestinosPage, GooglemapsComponent]
 })
 export class DestinosPageModule {}
