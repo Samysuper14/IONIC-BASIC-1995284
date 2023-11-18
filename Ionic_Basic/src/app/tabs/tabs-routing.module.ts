@@ -12,13 +12,11 @@ const routes: Routes = [
       {
         path:'alumnos',
         loadChildren : () => import('../alumnos/alumnos.module').then(m=>m.AlumnosPageModule)
-      }
-      ,
+      },
       {
-        path: 'recetas',
-        loadChildren: () => import('../receta/receta.module').then(m=>m.RecetaPageModule)
-      }
-      ,
+        path: 'galeria',
+        loadChildren: () => import('../galeria/galeria.module').then(m=>m.GaleriaPageModule)
+      },
       {
         path: 'presupuesto',
         loadChildren: () => import('../presupuesto/presupuesto.module').then(m=>m.PresupuestoPageModule)
